@@ -16,6 +16,6 @@ int main()
     cout << "Ball" << endl;
     cout << "radius:" << ball.getRadius() << ", area:" << ball.getArea() << ", volume:" << ball.getVolume() << ", color:" << ball.getColor() << endl;
     cout << "Cube" << endl;
-    cout << "length:" << cube.getSide() << ", area:" << cube.getArea() << ", volume:" << cube.getVolume() << ", color:" << cube.getColor() << endl;
+    cout << "length:" << cube.getLength() << ", area:" << cube.getArea() << ", volume:" << cube.getVolume() << ", color:" << cube.getColor() << endl;
     return 0;
 }

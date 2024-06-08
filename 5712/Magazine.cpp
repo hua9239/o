@@ -1,16 +1,15 @@
-#include "Publication.h"
 #include "Magazine.h"
+
+Magazine::Magazine()
+{
+    issueCount = 0;
+    volumeCount = 0;
+}
 
 Magazine::Magazine(string title, double pricePerPage, int issueCount, int volumeCount) : Publication(title, pricePerPage)
 {
     this->issueCount = issueCount;
     this->volumeCount = volumeCount;
-}
-
-Magazine::Magazine()
-{
-    this->issueCount = 0;
-    this->volumeCount = 0;
 }
 
 void Magazine::setIssueCount(int issueCount)

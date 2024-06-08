@@ -174,3 +174,12 @@
 5710, 15-1_Ball&amp;Cube
 5711, 15-2_Polymorphism
 5712, 第十三章 - 第三題 - 小考
+5713, 13-1_循序檔
+5714, 13-2 write to Binary file
+5715, 15-1_Ball&amp;Cube
+5716, 15-2_Polymorphism
+5717, 第十三章 - 第一題 - 小考
+5718, HW3_1
+5719, HW3_2
+5720, HW3_1
+5721, HW3_2

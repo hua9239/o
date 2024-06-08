@@ -10,14 +10,14 @@ class Cube : public GeometricObject
 {
 public:
     Cube();
-    Cube(double side, string color);
-    void setSide(double side);
-    double getSide() const;
+    Cube(double length, string color);
+    void setLength(double length);
+    double getLength() const;
     double getVolume() const;
     double getArea() const;
 
 private:
-    double side;
+    double length;
 };
 
 #endif

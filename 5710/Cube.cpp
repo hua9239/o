@@ -2,31 +2,31 @@
 
 Cube::Cube()
 {
-    side = 0;
+    length = 0;
 }
 
-Cube::Cube(double side, string color)
+Cube::Cube(double length, string color)
 {
-    this->side = side;
+    this->length = length;
     setColor(color);
 }
 
-void Cube::setSide(double side)
+void Cube::setLength(double length)
 {
-    this->side = side;
+    this->length = length;
 }
 
-double Cube::getSide() const
+double Cube::getLength() const
 {
-    return side;
+    return length;
 }
 
 double Cube::getVolume() const
 {
-    return pow(side, 3);
+    return pow(length, 3);
 }
 
 double Cube::getArea() const
 {
-    return 6 * pow(side, 2);
+    return 6 * pow(length, 2);
 }

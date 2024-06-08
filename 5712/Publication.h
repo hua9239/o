@@ -6,17 +6,17 @@ using namespace std;
 
 class Publication
 {
+private:
+    string title;
+    double pricePerPage;
+
 public:
-    Publication(string title, double pricePerPage);
     Publication();
+    Publication(string title, double pricePerPage);
     void setTitle(string title);
     string getTitle();
     void setPricePerPage(double pricePerPage);
     double getPricePerPage();
-
-private:
-    string title;
-    double pricePerPage;
 };
 
 #endif

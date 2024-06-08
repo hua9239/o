@@ -7,16 +7,19 @@ using namespace std;
 
 class Book : public Publication
 {
-public:
-    Book(string title, double pricePerPage, int pageCount);
-    Book();
-    void setPageCount(int pageCount);
-    int getPageCount();
-    double getPrice();
-    int getTotalPageCount();
-
 private:
     int pageCount;
+    double discount;
+
+public:
+    Book();
+    Book(string title, double pricePerPage, int pageCount, double discount);
+    void setPageCount(int pageCount);
+    int getPageCount();
+    void setDiscount(double discount);
+    double getDiscount();
+    double getPrice();
+    int getTotalPageCount();
 };
 
 #endif
